@@ -2,10 +2,10 @@ import pygame
 
 
 class Sprite():
-    def __init__(self, file_name, hight = 0, width = 0):
+    def __init__(self, file_name, height = 0, width = 0):
         self.file_name = file_name
         self.sprite = pygame.image.load(self.file_name)
-        self.hight = hight
+        self.hight = height
         self.width = width
         pass
     
